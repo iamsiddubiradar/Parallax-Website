@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+/* credits images download by unplash */
+.parallax-1 {
+  background-image: url("image/parallax1.jpeg");
+}
+
+.parallax-2 {
+  background-image: url("image/parallax2.jpeg");
+}
+
+.parallax-3 {
+  background-image: url("image/parallax3.jpeg");
+}
+.parallax-4{
+  background-image: url("image/parallax4.jpeg");
+}
+
+.content {
+  /* height: 60vh; */
+  padding: 4rem;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 2em;
+}
+.heading{
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5em;
+  pointer-events: none;
+}
+.ptext{
+  text-shadow: 2px 4px 8px rgba(0, 0, 0, .9);
+}
+h2 {
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+footer p {
+  padding: 5px;
+}
+
+
+@media (max-width: 500px) {
+  .heading{
+    font-size: 1.5em;
+  }
+}
